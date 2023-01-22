@@ -1,8 +1,7 @@
-import Habit from "./components/HabitDay";
 import { Header } from "./components/Header";
 import { SumarryTable } from "./components/SumarryTable";
 import './styles/global.css';
-
+import './lib/dayjs'
 
 export function App() {
   return (
