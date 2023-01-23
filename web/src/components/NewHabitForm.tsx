@@ -45,9 +45,7 @@ export function NewHabitForm() {
 
             setWeekDays(weekDaysWithAddedOne)
         }
-
     }
-
 
     return (
         <form onSubmit={createNewHabit} className="w-full flex flex-col mt-6">
@@ -83,7 +81,7 @@ export function NewHabitForm() {
                                 handleToggleWeekDay(index)
                             }}
                         >
-                            <div className="h-8 w-8 bg-zinc-900 border-2 border-zinc-800 rounded-lg flex items-center justify-center group-data-[state=checked]:bg-green-500">
+                            <div className="transition-colors h-8 w-8 bg-zinc-900 border-2 border-zinc-800 rounded-lg flex items-center justify-center group-data-[state=checked]:bg-green-500">
                                 <Checkbox.Indicator>
                                     <Check size={20} className="text-white" />
                                 </Checkbox.Indicator>
@@ -100,7 +98,7 @@ export function NewHabitForm() {
 
             </div>
 
-            <button type="submit" className="mt-6 rounded-lg p-4 flex items-center justify-center gap-3 font-semibold bg-green-600 hover:bg-green-500">
+            <button type="submit" className="transition-colors mt-6 rounded-lg p-4 flex items-center justify-center gap-3 font-semibold bg-green-600 hover:bg-green-500">
                 <Check size={20} weight="bold" />
                 Confirmar
             </button>
