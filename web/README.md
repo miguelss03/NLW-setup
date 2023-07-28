@@ -16,9 +16,7 @@ Componente de estilização, como se fosse um bootstrap do react
 Estudar detalhadamente o tailwind, nele tem muitas funcionalidade otimas para o front end, deixando a codificação melhor
 -------------------------------------------------------------
 
-# Radix 
-Componente de acessibilidade e itens em tela.
--------------------------------------------------------------
 
 
 
+# AAAAAAAAAAAAAAAAAAA
